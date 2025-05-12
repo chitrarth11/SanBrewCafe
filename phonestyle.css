@@ -1,0 +1,145 @@
+/* -------------------Navigation Bar------------------- */
+
+.navbar{
+    flex-direction: column;
+}
+
+.navbar::before{
+    content: "";
+    background-color: #251000;   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.navbar::after {
+    content: "";
+    background: url('Images/background/BG-img-coffee2expanded.jpg') no-repeat left center / cover; 
+    position: absolute;
+    background-attachment: fixed;
+    height: 1626px;
+    width: 100%;
+    opacity: 0.75;
+    /* transform: scale(1.015); */
+    z-index: -2;
+}
+
+/* -------------------List Styling------------------- */
+
+/* .navlist{
+} */
+
+/* -------------------Home Section------------------- */
+
+#home{
+    height: 400px;
+}
+
+.homearea {
+    margin-top: -50px;
+}
+
+#home h1 {
+    padding: 20px 0px;
+    text-align: center;
+    color: #251000;
+}
+
+#home p {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* -------------------Services Section------------------- */
+
+.services{
+    flex-direction: column;
+}
+
+.our_services{
+    margin-top: -50px;  
+    margin-bottom: 20px; 
+    opacity: .9;    
+}
+
+.service_box{
+    margin: 10px 10px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    border: 3px solid #251000;
+    border-radius: 15px;
+    background-color: #b5997de1;
+    z-index: 1;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+
+
+/* -------------------Menu Section------------------- */
+
+.menu{
+    flex-wrap: wrap;
+}
+
+#menu-cont h1 {
+    margin: -10px 0 -5px 0;
+    font-weight: 700;
+    display: flex
+;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #251000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------Clients Section------------------- */
+
+.clients{
+    flex-wrap: wrap;
+}
+
+.clients img{
+    height: 7em;
+    width: auto;
+}
+
+/* -------------------Contact Section-------------------  */
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_group {
+    display: flex;
+    width: 30%;
+    margin: 15px 20px;
+    /* transform: translateX(900px); */
+}
+
+.contact_box::before {
+    content: "";
+    filter: brightness(60%);
+    background: url(./Images/Contact_Us_edited.jpg) no-repeat  100px 0px/ cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: auto; ;
+    width: 100%;        
+    opacity: 0.9;
+    z-index: -1;
+}
+
+/* -------------------Footer Section-------------------  */
+/* -------------------Utility Classes-------------------  */
