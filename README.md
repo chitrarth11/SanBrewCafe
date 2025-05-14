@@ -1,1 +1,1 @@
-Click here to view the live website: https://github.com/chitrarth11/SanBrewCafe
+Click here to view the live website: https://chitrarth11.github.io/SanBrewCafe/
